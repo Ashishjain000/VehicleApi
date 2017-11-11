@@ -1,11 +1,11 @@
 var express = require('express'),
 sql = require('mssql'),
 config = {
-    server: 'localhost',
-    database: 'Company',
-    user: 'sa',
-    password: 'sa',
-    port: 1433
+    server: 'ashishdb.database.windows.net',
+    database: 'ASHISHDB',
+    user: 'ashish',
+    password: 'Chand@8983',
+   // port: 1433
 },
 app = express(),
 port = process.env.PORT || 3000;
